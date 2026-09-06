@@ -737,3 +737,42 @@ button:hover{
     font-weight:bold;
       }
       
+/* ================= FIX PASSWORD KEYPAD ================= */
+
+.keypad{
+    display:grid !important;
+    grid-template-columns:repeat(3, 1fr) !important;
+    gap:10px !important;
+    width:100% !important;
+    max-width:300px !important;
+    margin:25px auto 0 !important;
+}
+
+.keypad button{
+    width:100% !important;
+    height:65px !important;
+    box-sizing:border-box !important;
+    border:none !important;
+    border-radius:18px !important;
+    background:rgba(255,255,255,0.22) !important;
+    color:white !important;
+    font-size:24px !important;
+    font-weight:bold !important;
+}
+
+.keypad button:active{
+    transform:scale(.92) !important;
+}
+
+.keypad .num{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+}
+
+#deleteBtn,
+#enterBtn{
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+   }
